@@ -2,7 +2,18 @@
 name = "primus"
 version = "0.1.0"
 edition = "2021"
+description = "Transform data" 
+license = "GPL-3.0-only"
+repository = "https://github.com/loicbourgois/primus"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "primus"
+path = "src/lib.rs"
+
+[[bin]]
+name = "primus"
+path = "src/bin.rs"
 
 [dependencies]
