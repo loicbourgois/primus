@@ -17,3 +17,9 @@ name = "primus"
 path = "src/bin.rs"
 
 [dependencies]
+sha256 = "*"
+urlencoding = "*"
+reqwest = { version = "*", features = ["blocking"] }
+# serde_json = { version = "*", features = ["all"] }
+serde_json = "*"
+serde = { version = "*", features = ["derive"] }
